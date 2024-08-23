@@ -1,17 +1,6 @@
 # 🧪 VASP Guide
 
 This repository provides a comprehensive guide to using VASP (Vienna Ab-initio Simulation Package) for computational materials science.
-# 🧪 VASP Workflow and Calculation Types
-
-This guide provides an overview of various calculation types and the complete workflow for using VASP (Vienna Ab-initio Simulation Package) in computational materials science.
-
-## Calculation Types and Workflow
-
-# 🧪 VASP Workflow and Calculation Types
-
-This guide provides an overview of various calculation types and the complete workflow for using VASP (Vienna Ab-initio Simulation Package) in computational materials science.
-
-## Calculation Types and Workflow
 
 ## Table of Contents
 
