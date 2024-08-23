@@ -13,27 +13,6 @@ This guide provides an overview of various calculation types and the complete wo
 
 ## Calculation Types and Workflow
 
-```mermaid
-flowchart TD
-    A[Start] --> B[Preparation]
-    B --> C[Create Input Files]
-    C --> D[Set Up Environment]
-    D --> E[Run Calculations]
-    E --> F[Monitor Progress]
-    F --> G[Analyze Results]
-    G --> H[Post-Processing]
-    H --> I[Generate Plots]
-    I --> J[End]
-
-    subgraph CalcTypes[Calculation Types]
-        A1[Geometry Optimization] --> B
-        A2[Electronic Structure Calculations] --> B
-        A3[Band Structure Calculations] --> B
-        A4[Density of States (DOS) Calculations] --> B
-        A5[Phonon Calculations] --> B
-        A6[Molecular Dynamics (MD) Simulations] --> B
-    end
-
 ## Table of Contents
 
 - [Introduction](#introduction)
