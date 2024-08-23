@@ -157,3 +157,38 @@ mpirun -np <number_of_processors> vasp_std
 - **Errors in POTCAR**: Ensure the correct pseudopotentials are used.
 
 This README file provides a structured guide for using VASP, covering installation, basics, input files, running VASP, common workflows, result analysis, troubleshooting, and advanced topics. Feel free to customize it further based on your needs or specific focus areas.
+
+# 🧪 VASP Workflow and Calculation Types
+
+This guide provides an overview of various calculation types and the complete workflow for using VASP (Vienna Ab-initio Simulation Package) in computational materials science.
+
+## Calculation Types and Workflow
+
+```mermaid
+flowchart TD
+    A[Start] --> B[Preparation]
+    B --> C[Create Input Files]
+    C --> D[Set Up Environment]
+    D --> E[Run Calculations]
+    E --> F[Monitor Progress]
+    F --> G[Analyze Results]
+    G --> H[Post-Processing]
+    H --> I[Generate Plots]
+    I --> J[End]
+
+    subgraph CalcTypes[Calculation Types]
+        A1[Geometry Optimization]
+        A2[Electronic Structure Calculations]
+        A3[Band Structure Calculations]
+        A4[Density of States (DOS) Calculations]
+        A5[Phonon Calculations]
+        A6[Molecular Dynamics (MD) Simulations]
+
+        A1 --> B
+        A2 --> B
+        A3 --> B
+        A4 --> B
+        A5 --> B
+        A6 --> B
+    end
+
