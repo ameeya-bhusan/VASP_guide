@@ -116,50 +116,44 @@ To run VASP, use the following command:
 ```bash
 mpirun -np <number_of_processors> vasp_std
 ```
-Example Workflow
-Prepare the input files (POSCAR, POTCAR, INCAR, KPOINTS).
-Run VASP using the command above.
-Monitor the output in OUTCAR and OSZICAR.
+### Example Workflow
+- Prepare the input files (POSCAR, POTCAR, INCAR, KPOINTS).
+- Run VASP using the command above.
+- Monitor the output in OUTCAR and OSZICAR.
 
-Common VASP Workflows
-Geometry Optimization
-Purpose: Optimize the atomic positions to minimize the total energy.
-INCAR settings:
+### Common VASP Workflows
+- Geometry Optimization
+- Purpose: Optimize the atomic positions to minimize the total energy.
+- INCAR settings:
 
-IBRION = 2
-ISIF = 3
-EDIFFG = -0.02
+`IBRION = 2`
+`ISIF = 3`
+`EDIFFG = -0.02`
 
-Band Structure Calculations
-Purpose: Calculate the electronic band structure of the material.
-Steps:
-Perform a self-consistent field (SCF) calculation.
-Use the resulting charge density for a non-SCF calculation.
-Density of States (DOS) Calculations
-Purpose: Calculate the density of electronic states.
-INCAR settings:
+### Band Structure Calculations
+- Purpose: Calculate the electronic band structure of the material.
+## Steps:
+- Perform a self-consistent field (SCF) calculation.
+- Use the resulting charge density for a non-SCF calculation.
+- Density of States (DOS) Calculations
+- Purpose: Calculate the density of electronic states.
+- INCAR settings:
 
-ISMEAR = -5
-NEDOS = 1000
+`ISMEAR = -5`
+`NEDOS = 1000`
 
-ISMEAR = -5
-NEDOS = 1000
+`ISMEAR = -5`
+`NEDOS = 1000`
 
-Analyzing Results
-OUTCAR: Contains detailed information about the calculation.
-CONTCAR: Final atomic positions after a run.
-DOSCAR: Data for density of states.
-EIGENVAL: Eigenvalues for band structure calculations.
+### Analyzing Results
+- **OUTCAR: Contains detailed information about the calculation.
+- **CONTCAR: Final atomic positions after a run.
+- **DOSCAR: Data for density of states.
+- **EIGENVAL: Eigenvalues for band structure calculations.
 
-Troubleshooting
-Common Issues
-Convergence problems: Adjust EDIFF, ENCUT, or use a different smearing method.
-Errors in POTCAR: Ensure the correct pseudopotentials are used.
-
-Advanced Topics
-Hybrid functionals (HSE06)
-DFT+U calculations
-Phonon calculations using VASP
-
+### Troubleshooting
+- **Common Issues
+- Convergence problems: Adjust EDIFF, ENCUT, or use a different smearing method.
+- Errors in POTCAR: Ensure the correct pseudopotentials are used.
 
 This README file provides a structured guide for using VASP, covering installation, basics, input files, running VASP, common workflows, result analysis, troubleshooting, and advanced topics. Feel free to customize it further based on your needs or specific focus areas.
