@@ -146,14 +146,14 @@ mpirun -np <number_of_processors> vasp_std
 `NEDOS = 1000`
 
 ### Analyzing Results
-- **OUTCAR: Contains detailed information about the calculation.
-- **CONTCAR: Final atomic positions after a run.
-- **DOSCAR: Data for density of states.
-- **EIGENVAL: Eigenvalues for band structure calculations.
+- **OUTCAR**: Contains detailed information about the calculation.
+- **CONTCAR**: Final atomic positions after a run.
+- **DOSCAR**: Data for density of states.
+- **EIGENVAL**: Eigenvalues for band structure calculations.
 
 ### Troubleshooting
-- **Common Issues
-- Convergence problems: Adjust EDIFF, ENCUT, or use a different smearing method.
-- Errors in POTCAR: Ensure the correct pseudopotentials are used.
+- **Common Issues**
+- **Convergence problems**: Adjust EDIFF, ENCUT, or use a different smearing method.
+- **Errors in POTCAR**: Ensure the correct pseudopotentials are used.
 
 This README file provides a structured guide for using VASP, covering installation, basics, input files, running VASP, common workflows, result analysis, troubleshooting, and advanced topics. Feel free to customize it further based on your needs or specific focus areas.
