@@ -1,7 +1,40 @@
 # 🧪 VASP Guide
 
 This repository provides a comprehensive guide to using VASP (Vienna Ab-initio Simulation Package) for computational materials science.
+# 🧪 VASP Workflow and Calculation Types
 
+This guide provides an overview of various calculation types and the complete workflow for using VASP (Vienna Ab-initio Simulation Package) in computational materials science.
+
+## Calculation Types and Workflow
+
+```mermaid
+flowchart TD
+    A[Start] --> B[Preparation]
+    B --> C[Create Input Files]
+    C --> D[Set Up Environment]
+    D --> E[Run Calculations]
+    E --> F[Monitor Progress]
+    F --> G[Analyze Results]
+    G --> H[Post-Processing]
+    H --> I[Generate Plots]
+    I --> J[End]
+
+    subgraph CalcTypes[Calculation Types]
+        A1[Geometry Optimization]
+        A2[Electronic Structure Calculations]
+        A3[Band Structure Calculations]
+        A4[Density of States (DOS) Calculations]
+        A5[Phonon Calculations]
+        A6[Molecular Dynamics (MD) Simulations]
+
+        A1 --> B
+        A2 --> B
+        A3 --> B
+        A4 --> B
+        A5 --> B
+        A6 --> B
+    end
+```
 ## Table of Contents
 
 - [Introduction](#introduction)
