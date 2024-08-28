@@ -1,0 +1,22 @@
+
+  PREC = Accurate
+
+  EDIFF = 1E-08
+
+  IBRION = 8
+  NSW = 1
+
+  ISMEAR = 0
+  SIGMA = 0.05
+
+  LASPH = TRUE
+  NWRITE = 3
+  LEPSILON = TRUE
+
+  ISTART = 0
+  ICHARG = 2
+
+  LCHARG = FALSE
+  LWAVE = FALSE
+  LREAL = FALSE
+  ADDGRID = TRUE
